@@ -10,14 +10,18 @@ This repository contains a Jupyter notebook and supporting files for fine-tuning
 - PyTorch
 - Hugging Face Transformers
 - bitsandbytes (for efficient training)
+- CUDA-compatible GPU (recommended for efficient training)
+- Google Cloud Vision API credentials (for specific Image data processing tasks)
 
 ### Installation
 
-Run requirement.txt file or run from the notebook
+Run requirements.txt file or run from the notebook itself
 
 ## Dataset Preparation
 
 The fine-tuning process starts with dataset preparation. Load your dataset in CSV format and split it into training and testing sets. Replace `"your csv file path"` with the path to your dataset.
+
+**Note:** The dataset we used for fine-tuning consists of two primary columns: "Input" and "Output". The "Input" column contains raw text data from various sources, while the "Output" column holds structured information derived from the corresponding inputs in a JSON-like format. This setup facilitated the training of the model to extract specific pieces of information from unstructured text, enabling it to understand and organize data efficiently. The dataset was tailored for tasks that require converting free-form text into structured data, making it highly suitable for natural language processing applications focused on information extraction.
 
 ```python
 from datasets import load_dataset
