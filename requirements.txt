@@ -1,0 +1,14 @@
+# Direct installations from GitHub
+git+https://github.com/huggingface/transformers.git
+git+https://github.com/huggingface/peft.git
+git+https://github.com/huggingface/accelerate.git
+
+# PyPI packages
+bitsandbytes
+scipy
+google-cloud-vision
+datasets
+evaluate
+torch
+nltk
+numpy
