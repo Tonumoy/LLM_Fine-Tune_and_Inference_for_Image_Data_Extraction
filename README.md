@@ -1,6 +1,8 @@
 # Fine-Tuning zephyr-7B-alpha LLM
 
-This repository contains a Jupyter notebook and supporting files for fine-tuning the zephyr-7B-alpha model, a large language model provided by Hugging Face. This process involves several critical steps to prepare, configure, and execute the fine-tuning process to customize the model for specific tasks or improve its performance on certain datasets.
+This repository contains a Jupyter notebook and supporting files for fine-tuning the zephyr-7B-alpha model, a large language model provided by Hugging Face. This process involves several critical steps to prepare, configure, and execute the fine-tuning process to customize the model for specific tasks such as information extraction from images.
+
+![alt text](LLM_IO.jpg)
 
 ## Getting Started
 
