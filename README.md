@@ -81,7 +81,7 @@ trainer.train()
 
 ## Evaluation and Usage
 
-After training, evaluate the model's performance on the test dataset and save the model for future use.
+After training, evaluate the model's performance on your test dataset and save the model checkpoint for future use.
 
 ## Contributing
 
