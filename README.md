@@ -4,7 +4,6 @@ This repository contains a Jupyter notebook and supporting files for fine-tuning
 
 [![Video Title](LLM_IO.jpg)]([LinkedIn-video-URL](https://www.linkedin.com/posts/tonumoy-mukherjee-15b238125_machinelearning-ai-datascience-activity-7158835335236407296-aLuP?utm_source=share&utm_medium=member_desktop))
 
-
 ## Getting Started
 
 ### Prerequisites
